@@ -5,7 +5,7 @@ import Header from './Header';
 import Cart from './Cart';
 import Home from './Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
+import { db } from './firebase'
 
 function App() {
 	return (

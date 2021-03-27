@@ -1,19 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
-
-function Product() {
+function ProductTwo() {
     return (
         <Container>
            <Title>
-           2020 Apple iPad Pro (12.9-inch, Wi-Fi, 256GB) - Space Gray (4th Generation)
+           
+New Apple iMac with Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)
            </Title>
            <Price>
-                $1499
+                $1699
            </Price>
            <Rating>
            ⭐⭐⭐⭐⭐
            </Rating>
-           <Image src='https://images-na.ssl-images-amazon.com/images/I/81SGb5l%2BlZL._AC_SX342_.jpg' />
+           <Image src='https://images-na.ssl-images-amazon.com/images/I/71KR2i6-WaL._AC_SL1500_.jpg' />
         <ActionSection>
            <AddToCartButton>
                Add to Cart
@@ -22,8 +22,6 @@ function Product() {
         </Container>
     )
 }
-
-
 
 const Container = styled.div `
 background-color: white;
@@ -65,4 +63,4 @@ justify-content:center;
 margin-top:12px;
 `
 
-export default Product
+export default ProductTwo
